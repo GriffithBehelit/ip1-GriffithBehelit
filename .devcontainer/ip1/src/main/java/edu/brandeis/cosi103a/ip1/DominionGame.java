@@ -169,6 +169,9 @@ public class DominionGame {
         }
     }
     
+        public Player getPlayer1() { return player1; }
+        public Player getPlayer2() { return player2; }
+        public List<Card> getPurchasePriority() { return purchasePriority; }
     
 
 }
